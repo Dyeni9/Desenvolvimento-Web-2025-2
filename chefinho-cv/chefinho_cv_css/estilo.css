@@ -1,23 +1,20 @@
-/* Adicione esta regra para o fundo cinza da página inteira */
 html {
-    background-color: #f0f0f0; /* Fundo acinzentado */
+    background-color: #f0f0f0; 
 }
 
-/* Substitua o seu 'body' antigo por este */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
     
-    background-color: #fff; /* Fundo branco para o conteúdo do currículo */
-    max-width: 900px;      /* Largura máxima para melhor leitura */
-    margin: 30px auto;     /* 30px de margem em cima/embaixo, e 'auto' para centralizar nas laterais */
-    padding: 40px;         /* Espaçamento interno para o conteúdo não colar nas bordas */
-    border-radius: 8px;    /* Bordas levemente arredondadas para um visual suave */
-    box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Sombra suave para dar efeito de profundidade */
+    background-color: #fff;
+    max-width: 900px; 
+    margin: 30px auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
-/* O resto do seu CSS continua igual */
 h1 {
     color: #87cefa;
     text-align: center;
@@ -35,5 +32,3 @@ h2 {
     border-left: 5px solid #87cefa;
     text-transform: uppercase;
 }
-
-/* ... e assim por diante para o restante do seu CSS ... */
