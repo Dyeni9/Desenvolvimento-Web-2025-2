@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lei de Ohm - Cálculo de Resistência</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #e3f2fd; }
+        .container { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 350px; }
+        h1 { text-align: center; color: #1565c0; }
+        .form-group { margin-bottom: 1rem; }
+        label { display: block; margin-bottom: 0.5rem; }
+        input { width: 100%; padding: 0.5rem; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+        button { width: 100%; padding: 0.7rem; background-color: #ff9800; color: white; border: none; border-radius: 4px; font-size: 1rem; cursor: pointer; }
+        button:hover { background-color: #f57c00; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de Resistência</h1>
+        <form action="/calcular" method="POST">
+            <div class="form-group">
+                <label for="tensao">Tensão (em Volts, V):</label>
+                <input type="number" id="tensao" name="tensao" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="corrente">Corrente (em Ampères, A):</label>
+                <input type="number" id="corrente" name="corrente" step="any" required>
+            </div>
+            <button type="submit">Calcular Resistência (R)</button>
+        </form>
+    </div>
+</body>
+</html>

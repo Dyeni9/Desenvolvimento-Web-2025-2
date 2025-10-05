@@ -1,0 +1,23 @@
+{
+  "name": "desenvolvimento-web-2025-2",
+  "version": "1.0.0",
+  "description": "Atividades e trabalhos da maetia Desenvolvimento Web 2025/2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dyeni9/Desenvolvimento-Web-2025-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dyeni9/Desenvolvimento-Web-2025-2/issues"
+  },
+  "homepage": "https://github.com/Dyeni9/Desenvolvimento-Web-2025-2#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,5 @@
+# 5 - Considerando que a aprovação de um aluno em determinada disciplina
+requer uma média final maior ou igual a 6,0 (seis), elaborar uma aplicação Node.js
+para a web que receba através de um formulário HTML três notas, realize o cálculo
+da média, exiba o valor calculado e uma imagem indicando se o aluno está
+aprovado ou reprovado.

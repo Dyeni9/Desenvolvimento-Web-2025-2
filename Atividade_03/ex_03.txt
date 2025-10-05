@@ -1,0 +1,5 @@
+# 3 - Desenvolver uma aplicação Node.js para a Internet que calcule e mostre o
+valor da resistência de um condutor a partir de uma tensão e corrente digitadas pelo
+usuário através de um formulário HTML. Para isso, considere que a Lei de Ohm
+define que a resistência (R) de um condutor é obtida através da divisão da tensão
+aplicada (V) pela intensidade de corrente elétrica (A).
